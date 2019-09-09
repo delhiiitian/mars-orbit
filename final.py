@@ -6,7 +6,7 @@ from scipy.optimize import minimize_scalar
 from scipy.stats.mstats import gmean 
 
 
-df = pd.read_csv("data/datafile.csv")
+df = pd.read_csv("datafile.csv")
 
 sL = []
 for i in range(12):
